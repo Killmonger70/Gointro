@@ -8,7 +8,10 @@ import "fmt"
 
 var Nombre string = "Nico"
 var Edad int = 17
+var Pueblo string
 
 func main() {
-	fmt.Println("hola , me llamo ", Nombre, " y tengo ", Edad, " años :)")
+	// Nueva forma de referirse a una variable / New way to refer to a variable
+	Pueblo := "chia"
+	fmt.Println("hola , me llamo", Nombre, ",tengo", Edad, "años y vivo en", Pueblo, ":)")
 }
