@@ -11,7 +11,7 @@ var Number = 1234; //implicit variables
 
 
 func main() {
-	Grado := 7;
+	Grado := 7; // implicit variable declaration
 	fmt.Printf("%T", Name);
 	fmt.Printf("%T", Number);
 	fmt.Printf("%T", Grado);
