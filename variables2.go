@@ -1,5 +1,6 @@
 // Nicolas Ramirez
-// different methos for defining variables
+// different methods for defining variables
+// there are default values for each data type when it is udeclared but not defined
 
 package main
 
