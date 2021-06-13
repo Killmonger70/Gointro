@@ -2,7 +2,8 @@
 # Nicolas ramirez
 # Commit script
 
-read -p "que va en el commit?" COMMIT
+echo "que va en el commit?: " 
+read COMMIT
 
 git commit -am "${COMMIT}"
 git pull origin main
