@@ -3,6 +3,7 @@
 // fmt need two % for a ture percentage use
 // Sprintf does the instructions, but doesnt print them
 // \n breaks current line
+// \t añade un tab
 
 package main
 
