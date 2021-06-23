@@ -1,6 +1,7 @@
 // Nicolas Ramirez
 // fmt permite usar utilidades de consola como println, similar a como lo hacen librerias de c++
 // fmt need two % for a ture percentage use
+// Sprintf does the instructions, but doesnt print them
 
 package main
 
@@ -21,4 +22,6 @@ func main() {
 	fmt.Printf("hello world %s","Nicolas Ramirez"); // imprime el string
 	fmt.Printf("hello world %q","Nicolas Ramirez"); // imprime igual pero con "
 
+	fmt.Printf("hello world %9","Nicolas Ramirez"); // el espacio deseado"
+	fmt.Printf("hello world %9.2","1025.123456789"); // aproximacion after ."
 }
