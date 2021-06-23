@@ -8,5 +8,7 @@ import "fmt"
 
 func main() {
 	fmt.Printf("Hello world %t", false); // decide if its t/f
-	fmt.Printf("hello world %b", 1025); // transform a number to a binary
+	fmt.Printf("hello world %b", 1025); // transform a decimal to a binary
+	fmt.Printf("hello world %o", 1025); // transform a decimal to an octal
+	fmt.Printf("hello world %o", 1025); // transform a decimal to an octal
 }
