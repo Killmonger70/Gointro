@@ -5,8 +5,11 @@
 
 package main
 
-import "fmt"
+import (
+	p1 "fmt"
+	t "time"
+)
 
 func main() {
-	fmt.Println("Hello world")
+	p1.Println(t.Now())
 }
