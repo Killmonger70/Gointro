@@ -1,18 +1,16 @@
 // Nicolas Ramirez
-// nueva manera de usar comentarios con /* */
-/*
-fmt permite usar utilidades de consola como println, similar a como lo hacen librerias de c++
-we are going to add the time package
-se puede hacer un alias para el uso de los packetes importados
-*/
+// The varibles can be declared in multilines syntax or in oneliners (example below)
 
 package main
 
-import (
-	p1 "fmt"
-	t "time"
-)
+import  console "fmt"
 
 func main() {
-	p1.Println(t.Now())
+	var flavorScale float32;
+	flavorScale = 5.8;
+	console.Println(flavorScale);
+
+	var numOfFlavors int = 57;
+	console.Println(numOfFlavors);
+
 }
