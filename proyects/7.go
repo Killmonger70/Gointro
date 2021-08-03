@@ -19,9 +19,23 @@ func main(){
 	age = 1982;
 	pageNumber = 1000;
 	grade = 10.0;
+	cost = (pageNumber * age);
 
 	fmt.Println(title, "by ", author, "drawn by ", artist, "published by ", publisher)
 	fmt.Println("Year", age, "pages ",pageNumber,  "rated ", grade)
 	fmt.Println("price", cost)
 
+	
+	title = "jujutsu kaisen";
+	author = "Akutami Gege";
+	artist = "Akutami Gege";
+	publisher = "shueisha";
+	age = 2018;
+	pageNumber = 1500;
+	grade = 10.0;
+	cost = (pageNumber * age);
+
+	fmt.Println(title, "by ", author, "drawn by ", artist, "published by ", publisher)
+	fmt.Println("Year", age, "pages ",pageNumber,  "rated ", grade)
+	fmt.Println("price", cost)
 }
