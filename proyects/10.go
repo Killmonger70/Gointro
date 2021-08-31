@@ -1,5 +1,6 @@
 /* Nicolas Ramirez
-skull in ascii art */
+Sprintln allows us format and concatenate multiple variables, without inmideately printing it
+*/
 
 package main
 
