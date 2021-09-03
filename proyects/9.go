@@ -12,6 +12,6 @@ func main(){
 	letras :=  "abcd";
 	// %f is used so the compiler aproximates the number of decimals in a float
 	aprox := 12.03445;
-	fmt.Printf("the data types are %T and %T", numeros, letras)
-	fmt.Printf("aprox by .2 is %.2f", aprox) 
+	fmt.Printf("the data types are %T and %T \n", numeros, letras)
+	fmt.Printf("aprox by .2 is %.2f \n", aprox) 
 }
