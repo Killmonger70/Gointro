@@ -1,11 +1,17 @@
 /* Nicolas Ramirez
-skull in ascii art */
+interstellar agency proyect
+*/
 
 package main
 
 import "fmt"
 
-func main(){
+func CombustibleRestante(fuel int) {
+	fmt.Println("You have", fuel, "Gallons of fuel remaining");
+}
 
+
+func main(){
+	
 
 }
