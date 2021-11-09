@@ -25,6 +25,14 @@ func calculateFuel(planet string) int{
 	return fuel;
 }
 
+func greetPlanet(planet string){
+	fmt.Println("Welcome to planet", planet);
+}
+
+func cantFly(){
+	fmt.Println("We do not have the available fuel to fly there.");
+}
+
 func main(){
 	
 
