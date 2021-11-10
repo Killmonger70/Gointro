@@ -33,6 +33,20 @@ func cantFly(){
 	fmt.Println("We do not have the available fuel to fly there.");
 }
 
+func flyToPlanet(planet string, fuel int) int{
+	var fuelRemainig int;
+	var fuelCost int;
+	fuelRemaining = fuel;
+	fuelCost = calculateFuel(planet);
+	if fuelRemaining >= fuelCost {
+		greetPlanet(planet);
+		fuelRemaining -= fuelCost;
+	} else {
+		cantFly();
+	}
+	return fuelRemanining;
+}
+
 func main(){
 	
 
