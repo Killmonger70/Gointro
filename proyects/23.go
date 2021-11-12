@@ -34,7 +34,7 @@ func cantFly(){
 }
 
 func flyToPlanet(planet string, fuel int) int{
-	var fuelRemainig int;
+	var fuelRemaining int;
 	var fuelCost int;
 	fuelRemaining = fuel;
 	fuelCost = calculateFuel(planet);
@@ -44,10 +44,13 @@ func flyToPlanet(planet string, fuel int) int{
 	} else {
 		cantFly();
 	}
-	return fuelRemanining;
+	return fuelRemaining;
 }
 
 func main(){
-	
+	var fuel int = 1000000;
+	var choice string = "Venus";
+	fuel = flyToPlanet(choice, fuel);
+	CombustibleRestante(fuel);
 
 }
